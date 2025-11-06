@@ -1,0 +1,16 @@
+# madebybunnyrce
+[package]
+name = "insen-controller-client" # madebybunnyrce
+version = "1.0.0" # madebybunnyrce
+edition = "2021" # madebybunnyrce
+authors = ["INSEN Team"] # madebybunnyrce
+description = "INSEN Controller Client for Rust"
+license = "MIT"
+keywords = ["insen", "controller", "gaming", "serial", "hardware"]
+
+[dependencies]
+serialport = "4.2"
+
+[[bin]]
+name = "insen_client"
+path = "src/main.rs"
